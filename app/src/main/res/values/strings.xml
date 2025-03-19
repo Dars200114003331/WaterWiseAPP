@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Water Wise APP</string>
+    <string name="app_tagline">Save Water, Sustain Life!</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Don\'t have Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have Account</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="app_logo">app logo</string>
+    <string name="profile_icon">profile_icon</string>
+    <string name="today_water_usage">today water usage</string>
+    <string name="of_100_l_target">of 100l target</string>
+    <string name="shower_icon">shower</string>
+    <string name="shower">Shower</string>
+    <string name="laundry_icon">laundry_icon</string>
+    <string name="cooking_icon">cooking_icon</string>
+    <string name="laundry">laundry</string>
+    <string name="cooking">cooking</string>
+    <string name="log_water_usage">log_water_usage</string>
+    <string name="trophy_icon">trophy_icon</string>
+    <string name="save_10_liters_today">save 10 liters today</string>
+    <string name="challenge_description">Challenge Description</string>
+    <string name="reward_eco_badge">Reward Eco Badge</string>
+    <string name="water_saving_tips">Water Saving Tips</string>
+    <string name="community_events">Community Eevents</string>
+    <string name="community_map">Community Map</string>
+    <string name="local_cleanup_event">Local Cleanup Event</string>
+    <string name="event_description">Event Description</string>
+    <string name="report_water_shortage">Report Water Shortage</string>
+    <string name="target">Target</string>
+</resources>
