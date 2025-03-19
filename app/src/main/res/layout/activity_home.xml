@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Home">
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="#FF5722"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Water Usage Overview -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardWaterUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btnLogout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvWaterUsageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Water Usage"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvWaterUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50 Liters"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Buttons Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cardWaterUsage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Smart Water Tracker -->
+        <Button
+            android:id="@+id/btnSmartTracker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Water Tracker"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Water-Saving Tips -->
+        <Button
+            android:id="@+id/btnWaterTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water-Saving Tips"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Gamified Challenges -->
+        <Button
+            android:id="@+id/btnChallenges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gamified Challenges"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Community Engagement -->
+        <Button
+            android:id="@+id/btnCommunity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Community Engagement"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
